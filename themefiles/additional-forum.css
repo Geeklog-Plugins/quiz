@@ -1,0 +1,89 @@
+/* glPlugin Styles */
+#plg_table {
+    background-color: #EFEFEF;
+    font-family: Verdana, Arial; 
+    font-size: 10px;
+    vertical-align:middle;
+    line-height: 12pt;
+}
+#plg_table TD {background-color:#EFEFEF; vertical-align:top; font-weight:normal;}
+#plg_table label {color:#3366CC; font-weight:bolder;}
+#plg_text1 { background-color: #DFDFDF; font-family: Verdana, Arial; font-size: 10px; color: #336699; font-weight: bold; padding:10 5 5 5px; }
+#plg_text2 { background-color: #EFEFEF; font-family: Verdana, Arial; font-size: 10px; color: #333333; padding: 3 0 3 5px;}
+
+#plg_alt1    { background-color: #F5F5F5; padding-left:5px; }
+#plg_alt2    { background-color: #FFFFFF; padding-left:5px; }
+#plg_heading { background-color: #667AB3; font-family:Arial,verdana, tahoma;  font-size: 14px; color: #FFF; padding: 5px;}
+
+#navcontainer a { text-decoration: none; }
+
+#navcontainer ul  {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    position: relative;
+    border: 0px;
+    background-color: #36c;
+    padding: 5px 0px 0px 0px;
+    height:26px;
+}
+
+#navcontainer li { display: inline; margin:0px; }
+
+#navcontainer ul a,
+#navcontainer ul a:link,
+#navcontainer ul a:visited  {
+    background-color: #36c;
+    border:1px solid #36c;
+    color: white;
+    padding: 2px 5px;
+    margin:2px;
+}
+
+#navcontainer ul a:hover,
+#navcontainer ul a:focus  {
+    background-color: #9CD4F7;
+    border: 1px solid black;
+    color: black;
+}
+
+/* current Link */
+#navcontainer ul a#current,
+#navcontainer ul a#current:link,
+#navcontainer ul a#current:visited { font-weight: bold; }
+
+/* Second Menu level */
+#navcontainer ul ul  {
+    font-size: 80%;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom:2px;
+    padding:0 2 5 0px;
+    top: 23px;
+    left: 0;
+    border-top: none;
+    background-color: #95B1BB;
+}
+
+#navcontainer ul ul li { display: list-item; padding:5 0px;margin-left:5px; list-style-type: circle; list-style-position: inside;}
+
+#navcontainer ul ul a,
+#navcontainer ul ul a:link,
+#navcontainer ul ul a:visited  {
+    background-color: #95B1BB;
+    border: 1px solid #95B1BB;
+    color: black;
+}
+
+#navcontainer ul ul a:hover,
+#navcontainer ul ul a:focus  {
+    background-color: #9CD4F7;
+    border: 1px solid black;
+    color: black;
+    padding:5px;
+}
+
+/* Second level menu current Link */
+#navcontainer ul ul a#subcurrent,
+#navcontainer ul ul a#subcurrent:link,
+#navcontainer ul ul a#subcurrent:visited { color:white; font-weight: bold; }

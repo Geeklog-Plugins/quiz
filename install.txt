@@ -1,0 +1,54 @@
++---------------------------------------------------------------------------+
+| glQuiz - Geeklog Quiz 1.0  Installation Notes                             |
++---------------------------------------------------------------------------+
+| Copyright (C) 2004 - Consult4Hire Inc.                                    |
+|                                                                           |
+| Author:                                                                   |
+| Blaine Lang                 -    blaine@portalparts.com                   |
+| Date: August 28 2004                                                      |
+|                                                                           |
++---------------------------------------------------------------------------+
+
+1) Restore the archive under your /plugins directory.
+You will have a staticpages folder there already.
+This directory is normally at the same level as your sites main config.php file
+
+2) Create 2 new directories under your site's public_html (public) directory
+     - public_html/quiz
+     - admin/plugins/quiz
+
+3) Install Plugin as per standard Geeklog Plugin Installation steps
+
+   i)   Admin files copied to (public)/admin/plugins/quiz directory
+   ii)  Public files copied to (public)/quiz directory
+   iii) Themefiles to (public)/layout/{theme}/navbar  - If the navbar directory does not already exist 
+
+    For more details, review the Geeklog plugin installation overview
+    http://wiki.geeklog.net/wiki/index.php/Plugins
+
+
+4) Place the file lib-portalparts.php in your geeklog/system folder with the other lib-xxxx.php files.
+Note: You may already have this file there if other portalparts plugins have been installed.
+
+5) Add the new CSS to your theme style.css if you don't already have these CSS declarations.
+   New CSS is in the file  'plugins/quiz/themefiles/additional.css'
+   Just add the new CSS to the end of the theme's style.css file.
+
+
+6) INSTALL THE PLUGIN
+Note: You need to be logged into the site as admin user to perform this step.
+
+The plugin should now appear as an un-installed plugin in the plugin Editor.
+Access the plugin Editor from the Admin Menu -> plugins
+
+Click on the [install] link
+
+
+You should now see a new admin menu option for the quiz admin.
+
+Thank you for your purchase.
+
+Regards,
+Blaine
+blaine@portalparts.com
+
